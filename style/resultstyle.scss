@@ -1,0 +1,51 @@
+
+.recommendations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+    &__menu {
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    &__img {
+        width: 300px;
+        height: 300px;
+    }
+    &__menuname {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__calories {
+        display: flex;
+        flex-direction: row;
+    }
+    &__caloriesvalue {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    &__caloriestitle {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+ }
+
+ .backbutton {
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+

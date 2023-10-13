@@ -1,3 +1,49 @@
+body {
+    font-family: 'DM Serif Display', serif;
+
+}
+
+// Form Field Box
+.main__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .menu {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__label {
+    font-size: 18px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+.menu__dropdown {
+    border-radius: 0.25rem;
+    min-width: 70vw;
+    height: 2rem;
+    background-color: #FAFAFA;
+    border: 1px solid #E1E1E1;
+}
+
+.menu__comment {
+    margin-block-start: 1.5rem;
+}
+
+.menu__button {
+    display: flex;
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    min-width: 15%;
+    position: relative;
+    justify-content: center;
+    margin-block-start: 1rem;
+    font-size: 16px;
+    width: 300px;
+    height: 100%;
 }
